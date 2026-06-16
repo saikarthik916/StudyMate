@@ -9,7 +9,7 @@ const MongoStore = require('connect-mongo');
 const app = express();
 const port = 8000;
 
-const mongoURI = 'mongodb+srv://HITMAN:HITMAN2025@cluster0.mo4bh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const mongoURI = 'mongodb+srv://saikarthikchinnu6_db_user:karthik123@cluster0.mo4bh.mongodb.net/';
 mongoose.connect(mongoURI)
   .then(() => console.log('MongoDB Atlas connected successfully'))
   .catch(err => console.error(err));
